@@ -13,14 +13,13 @@
 		D8DD35C619C8248900EC7441 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8DD35C419C8248900EC7441 /* InfoPlist.strings */; };
 		D8DD35C819C8248900EC7441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD35C719C8248900EC7441 /* main.m */; };
 		D8DD35CC19C8248900EC7441 /* WBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD35CB19C8248900EC7441 /* WBAppDelegate.m */; };
-		D8DD35CF19C8248900EC7441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DD35CD19C8248900EC7441 /* Main.storyboard */; };
-		D8DD35D219C8248900EC7441 /* WBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD35D119C8248900EC7441 /* WBViewController.m */; };
 		D8DD35D419C8248900EC7441 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DD35D319C8248900EC7441 /* Images.xcassets */; };
 		D8DD35DB19C8248900EC7441 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DD35DA19C8248900EC7441 /* XCTest.framework */; };
 		D8DD35DC19C8248900EC7441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DD35BB19C8248900EC7441 /* Foundation.framework */; };
 		D8DD35DD19C8248900EC7441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DD35BF19C8248900EC7441 /* UIKit.framework */; };
 		D8DD35E519C8248900EC7441 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8DD35E319C8248900EC7441 /* InfoPlist.strings */; };
 		D8DD35E719C8248900EC7441 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD35E619C8248900EC7441 /* ____Tests.m */; };
+		D8DD35F219C827D000EC7441 /* WBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD35F119C827D000EC7441 /* WBTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +43,14 @@
 		D8DD35C919C8248900EC7441 /* 新浪微博-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "新浪微博-Prefix.pch"; sourceTree = "<group>"; };
 		D8DD35CA19C8248900EC7441 /* WBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBAppDelegate.h; sourceTree = "<group>"; };
 		D8DD35CB19C8248900EC7441 /* WBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBAppDelegate.m; sourceTree = "<group>"; };
-		D8DD35CE19C8248900EC7441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D8DD35D019C8248900EC7441 /* WBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBViewController.h; sourceTree = "<group>"; };
-		D8DD35D119C8248900EC7441 /* WBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBViewController.m; sourceTree = "<group>"; };
 		D8DD35D319C8248900EC7441 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D8DD35D919C8248900EC7441 /* 新浪微博Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "新浪微博Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DD35DA19C8248900EC7441 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D8DD35E219C8248900EC7441 /* 新浪微博Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "新浪微博Tests-Info.plist"; sourceTree = "<group>"; };
 		D8DD35E419C8248900EC7441 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8DD35E619C8248900EC7441 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		D8DD35F019C827D000EC7441 /* WBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTabBarController.h; sourceTree = "<group>"; };
+		D8DD35F119C827D000EC7441 /* WBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +110,10 @@
 		D8DD35C119C8248900EC7441 /* 新浪微博 */ = {
 			isa = PBXGroup;
 			children = (
+				D8DD35F019C827D000EC7441 /* WBTabBarController.h */,
+				D8DD35F119C827D000EC7441 /* WBTabBarController.m */,
 				D8DD35CA19C8248900EC7441 /* WBAppDelegate.h */,
 				D8DD35CB19C8248900EC7441 /* WBAppDelegate.m */,
-				D8DD35CD19C8248900EC7441 /* Main.storyboard */,
-				D8DD35D019C8248900EC7441 /* WBViewController.h */,
-				D8DD35D119C8248900EC7441 /* WBViewController.m */,
-				D8DD35D319C8248900EC7441 /* Images.xcassets */,
 				D8DD35C219C8248900EC7441 /* Supporting Files */,
 			);
 			path = "新浪微博";
@@ -126,6 +122,7 @@
 		D8DD35C219C8248900EC7441 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D8DD35D319C8248900EC7441 /* Images.xcassets */,
 				D8DD35C319C8248900EC7441 /* 新浪微博-Info.plist */,
 				D8DD35C419C8248900EC7441 /* InfoPlist.strings */,
 				D8DD35C719C8248900EC7441 /* main.m */,
@@ -231,7 +228,6 @@
 			files = (
 				D8DD35D419C8248900EC7441 /* Images.xcassets in Resources */,
 				D8DD35C619C8248900EC7441 /* InfoPlist.strings in Resources */,
-				D8DD35CF19C8248900EC7441 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +246,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8DD35D219C8248900EC7441 /* WBViewController.m in Sources */,
 				D8DD35C819C8248900EC7441 /* main.m in Sources */,
 				D8DD35CC19C8248900EC7441 /* WBAppDelegate.m in Sources */,
+				D8DD35F219C827D000EC7441 /* WBTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +277,6 @@
 				D8DD35C519C8248900EC7441 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D8DD35CD19C8248900EC7441 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D8DD35CE19C8248900EC7441 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		D8DD35E319C8248900EC7441 /* InfoPlist.strings */ = {

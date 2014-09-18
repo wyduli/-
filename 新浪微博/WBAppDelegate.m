@@ -7,13 +7,17 @@
 //
 
 #import "WBAppDelegate.h"
-
+#import "WBTabBarController.h"
 @implementation WBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    self.window.rootViewController = [[WBTabBarController alloc] init];
+    [self.window makeKeyAndVisible];
     return YES;
+    
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
